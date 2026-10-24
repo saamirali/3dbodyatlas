@@ -1,0 +1,334 @@
+{
+  "project": "Human Body Atlas",
+  "version": "1.0.0",
+  "license": "CC BY-SA 4.0 / Open Medical Data",
+  "totalStructures": 20,
+  "systems": [
+    {
+      "id": "skeletal",
+      "englishName": "Skeletal System",
+      "latinName": "Systema skeletale",
+      "color": "#e2e8f0"
+    },
+    {
+      "id": "muscular",
+      "englishName": "Muscular System",
+      "latinName": "Systema musculare",
+      "color": "#f43f5e"
+    },
+    {
+      "id": "visceral",
+      "englishName": "Visceral / Organ System",
+      "latinName": "Systema viscerale",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "nervous",
+      "englishName": "Nervous System",
+      "latinName": "Systema nervosum",
+      "color": "#38bdf8"
+    },
+    {
+      "id": "vascular",
+      "englishName": "Vascular / Circulatory System",
+      "latinName": "Systema cardiovasculare",
+      "color": "#ef4444"
+    }
+  ],
+  "structures": [
+    {
+      "id": "cranium",
+      "latinName": "Cranium (Neurocranium & Viscerocranium)",
+      "englishName": "Skull / Cranium",
+      "system": "skeletal",
+      "region": "Head & Neck",
+      "side": "midline",
+      "terminologyCode": "TA98: A02.1.00.001",
+      "description": "The rigid bony vault enclosing and shielding the brain and primary sensory apparatus.",
+      "clinicalRelevance": "Basilar skull fracture signs include Battle sign (retroauricular ecchymosis), raccoon eyes, and CSF rhinorrhea/otorrhea.",
+      "position": [0, 4.4, 0.05],
+      "disassembledPosition": [-6, 4.5, 0]
+    },
+    {
+      "id": "mandible",
+      "latinName": "Mandibula",
+      "englishName": "Mandible (Lower Jaw)",
+      "system": "skeletal",
+      "region": "Head & Neck",
+      "side": "midline",
+      "terminologyCode": "TA98: A02.1.15.001",
+      "description": "The strongest and largest bone of the facial skeleton, forming the temporomandibular joint (TMJ).",
+      "clinicalRelevance": "Mandibular fractures frequently occur in pairs due to ring-like mechanics.",
+      "position": [0, 3.8, 0.35],
+      "disassembledPosition": [-6, 3.2, 0]
+    },
+    {
+      "id": "columna-vertebralis",
+      "latinName": "Columna vertebralis",
+      "englishName": "Vertebral Column (Spine)",
+      "system": "skeletal",
+      "region": "Axial Skeleton",
+      "side": "midline",
+      "terminologyCode": "TA98: A02.2.00.001",
+      "description": "Segmented axial pillar of 33 vertebrae guarding the spinal cord.",
+      "clinicalRelevance": "Herniated nucleus pulposus commonly compresses L4-L5 or L5-S1 nerve roots.",
+      "position": [0, 1.8, -0.3],
+      "disassembledPosition": [-6, 1.8, 0]
+    },
+    {
+      "id": "cavea-thoracis",
+      "latinName": "Cavea thoracis",
+      "englishName": "Ribcage (Thoracic Cage)",
+      "system": "skeletal",
+      "region": "Thorax",
+      "side": "midline",
+      "terminologyCode": "TA98: A02.3.01.001",
+      "description": "Osteocartilaginous conical cage consisting of 12 pairs of ribs, costal cartilages, and sternum.",
+      "clinicalRelevance": "Flail chest occurs when 3 or more contiguous ribs fracture in two or more places.",
+      "position": [0, 2.2, 0.05],
+      "disassembledPosition": [-6, 0.4, 0]
+    },
+    {
+      "id": "clavicula-r",
+      "latinName": "Clavicula dextra",
+      "englishName": "Clavicle (Right Collarbone)",
+      "system": "skeletal",
+      "region": "Shoulder Girdle",
+      "side": "right",
+      "terminologyCode": "TA98: A02.4.02.001",
+      "description": "S-shaped strut bone connecting the axial skeleton to the appendicular skeleton.",
+      "clinicalRelevance": "Most frequently fractured long bone, classically at junction of middle and lateral thirds.",
+      "position": [0.95, 3.1, 0.25],
+      "disassembledPosition": [-6, -1.0, 0]
+    },
+    {
+      "id": "pelvis",
+      "latinName": "Pelvis / Os coxae",
+      "englishName": "Pelvic Girdle",
+      "system": "skeletal",
+      "region": "Pelvis",
+      "side": "midline",
+      "terminologyCode": "TA98: A02.5.01.001",
+      "description": "Massive basin-like bone complex formed by two hip bones and sacrum.",
+      "clinicalRelevance": "Open-book pelvic fractures risk rapid retroperitoneal hemorrhage.",
+      "position": [0, 0.05, 0.02],
+      "disassembledPosition": [-6, -2.4, 0]
+    },
+    {
+      "id": "femur-r",
+      "latinName": "Os femoris dextrum",
+      "englishName": "Femur (Right Thigh Bone)",
+      "system": "skeletal",
+      "region": "Lower Limb",
+      "side": "right",
+      "terminologyCode": "TA98: A02.5.04.001",
+      "description": "The longest, heaviest, and strongest tubular bone in the human body.",
+      "clinicalRelevance": "Subcapital femoral neck fractures disrupt retinacular vessels causing avascular necrosis.",
+      "position": [0.75, -2.0, 0.05],
+      "disassembledPosition": [-6, -4.0, 0]
+    },
+    {
+      "id": "musculus-deltoideus-r",
+      "latinName": "Musculus deltoideus dexter",
+      "englishName": "Deltoid Muscle (Right)",
+      "system": "muscular",
+      "region": "Shoulder",
+      "side": "right",
+      "terminologyCode": "TA98: A04.6.02.002",
+      "description": "Powerful triangular multipennate muscle capping the shoulder glenohumeral joint.",
+      "clinicalRelevance": "Susceptible to denervation atrophy following anterior glenohumeral shoulder dislocation.",
+      "position": [1.75, 2.7, 0.15],
+      "disassembledPosition": [-3, 4.2, 0]
+    },
+    {
+      "id": "musculus-pectoralis-major-r",
+      "latinName": "Musculus pectoralis major dexter",
+      "englishName": "Pectoralis Major (Right Chest Muscle)",
+      "system": "muscular",
+      "region": "Thorax",
+      "side": "right",
+      "terminologyCode": "TA98: A04.4.01.002",
+      "description": "Thick, fan-shaped muscle forming the anterior axillary fold.",
+      "clinicalRelevance": "Avulsion of pectoralis tendon typically occurs during heavy bench pressing.",
+      "position": [0.75, 2.45, 0.55],
+      "disassembledPosition": [-3, 2.6, 0]
+    },
+    {
+      "id": "musculus-biceps-brachii-r",
+      "latinName": "Musculus biceps brachii dexter",
+      "englishName": "Biceps Brachii (Right)",
+      "system": "muscular",
+      "region": "Upper Limb",
+      "side": "right",
+      "terminologyCode": "TA98: A04.6.02.005",
+      "description": "Two-headed anterior compartment arm muscle crossing glenohumeral and elbow joints.",
+      "clinicalRelevance": "Rupture of long head of biceps tendon causes Popeye muscle deformity.",
+      "position": [1.8, 1.8, 0.15],
+      "disassembledPosition": [-3, 1.0, 0]
+    },
+    {
+      "id": "musculus-rectus-abdominis",
+      "latinName": "Musculus rectus abdominis",
+      "englishName": "Rectus Abdominis",
+      "system": "muscular",
+      "region": "Abdomen",
+      "side": "midline",
+      "terminologyCode": "TA98: A04.5.01.001",
+      "description": "Paired strap muscle segmented by transverse tendinous intersections.",
+      "clinicalRelevance": "Diastasis recti involves stretching and thinning of linea alba.",
+      "position": [0, 1.15, 0.42],
+      "disassembledPosition": [-3, -0.6, 0]
+    },
+    {
+      "id": "musculus-latissimus-dorsi-r",
+      "latinName": "Musculus latissimus dorsi dexter",
+      "englishName": "Latissimus Dorsi (Right Back)",
+      "system": "muscular",
+      "region": "Posterior Torso",
+      "side": "right",
+      "terminologyCode": "TA98: A04.3.01.011",
+      "description": "Broadest muscle of the back creating the posterior axillary fold.",
+      "clinicalRelevance": "Workhorse myocutaneous flap in reconstructive breast surgery.",
+      "position": [0.8, 1.6, -0.45],
+      "disassembledPosition": [-3, -2.2, 0]
+    },
+    {
+      "id": "musculus-quadriceps-femoris-r",
+      "latinName": "Musculus quadriceps femoris dexter",
+      "englishName": "Quadriceps Femoris (Right)",
+      "system": "muscular",
+      "region": "Lower Limb",
+      "side": "right",
+      "terminologyCode": "TA98: A04.7.02.017",
+      "description": "Massive four-bellied anterior thigh muscle group extending the knee.",
+      "clinicalRelevance": "Tested via the patellar tendon reflex (L3-L4 arc).",
+      "position": [0.75, -1.9, 0.45],
+      "disassembledPosition": [-3, -3.8, 0]
+    },
+    {
+      "id": "cor",
+      "latinName": "Cor",
+      "englishName": "Heart",
+      "system": "visceral",
+      "region": "Thorax / Mediastinum",
+      "side": "midline",
+      "terminologyCode": "TA98: A12.1.00.001",
+      "description": "Muscular four-chambered pump situated in middle mediastinum.",
+      "clinicalRelevance": "LAD occlusion precipitates anterior STEMI and cardiogenic shock.",
+      "position": [-0.25, 2.2, 0.22],
+      "disassembledPosition": [0, 4.4, 0]
+    },
+    {
+      "id": "pulmo-dexter",
+      "latinName": "Pulmones",
+      "englishName": "Lungs",
+      "system": "visceral",
+      "region": "Thorax",
+      "side": "midline",
+      "terminologyCode": "TA98: A06.5.01.001",
+      "description": "Paired spongy respiratory viscera executing alveolar gas exchange.",
+      "clinicalRelevance": "Tension pneumothorax produces contralateral mediastinal shift and obstructive shock.",
+      "position": [0, 2.35, 0.05],
+      "disassembledPosition": [0, 2.8, 0]
+    },
+    {
+      "id": "hepar",
+      "latinName": "Hepar",
+      "englishName": "Liver",
+      "system": "visceral",
+      "region": "Right Upper Quadrant",
+      "side": "right",
+      "terminologyCode": "TA98: A05.8.01.001",
+      "description": "Largest internal metabolic organ performing detoxification and bile synthesis.",
+      "clinicalRelevance": "Portal hypertension prompts life-threatening esophageal varices.",
+      "position": [0.45, 1.35, 0.2],
+      "disassembledPosition": [0, 1.2, 0]
+    },
+    {
+      "id": "gaster",
+      "latinName": "Gaster",
+      "englishName": "Stomach",
+      "system": "visceral",
+      "region": "Left Upper Quadrant",
+      "side": "left",
+      "terminologyCode": "TA98: A05.5.01.001",
+      "description": "J-shaped muscular digestive reservoir mediating acid digestion.",
+      "clinicalRelevance": "Parietal cell loss causes intrinsic factor deficiency and Pernicious Anemia.",
+      "position": [-0.45, 1.25, 0.28],
+      "disassembledPosition": [0, -0.4, 0]
+    },
+    {
+      "id": "renes",
+      "latinName": "Renes",
+      "englishName": "Kidneys",
+      "system": "visceral",
+      "region": "Retroperitoneum",
+      "side": "midline",
+      "terminologyCode": "TA98: A08.1.01.001",
+      "description": "Bean-shaped organs filtering plasma and regulating blood pressure via RAAS.",
+      "clinicalRelevance": "Renal artery stenosis triggers refractory renovascular hypertension.",
+      "position": [0, 1.05, -0.22],
+      "disassembledPosition": [0, -2.0, 0]
+    },
+    {
+      "id": "medulla-spinalis",
+      "latinName": "Medulla spinalis",
+      "englishName": "Spinal Cord",
+      "system": "nervous",
+      "region": "Vertebral Canal",
+      "side": "midline",
+      "terminologyCode": "TA98: A14.1.02.001",
+      "description": "Cylindrical neural cable extending from medulla to conus medullaris.",
+      "clinicalRelevance": "Anterior spinal artery syndrome produces motor paralysis below lesion.",
+      "position": [0, 2.05, -0.28],
+      "disassembledPosition": [3, 3.8, 0]
+    },
+    {
+      "id": "aorta",
+      "latinName": "Aorta",
+      "englishName": "Aorta",
+      "system": "vascular",
+      "region": "Thorax & Abdomen",
+      "side": "midline",
+      "terminologyCode": "TA98: A12.2.01.001",
+      "description": "Primary elastic systemic conduit distributing left ventricular stroke volume.",
+      "clinicalRelevance": "Abdominal aortic aneurysm rupture presents with hypotension and flank pain.",
+      "position": [-0.08, 1.95, 0.08],
+      "disassembledPosition": [6, 3.0, 0]
+    }
+  ],
+  "isolatedOrgans": [
+    {
+      "id": "heart",
+      "englishName": "Heart",
+      "latinName": "Cor",
+      "hotspots": [
+        {
+          "id": "aorta",
+          "name": "Ascending Aorta",
+          "latinName": "Aorta ascendens",
+          "description": "Main artery leaving the heart."
+        },
+        {
+          "id": "left-ventricle",
+          "name": "Left Ventricle",
+          "latinName": "Ventriculus sinister",
+          "description": "High-pressure systemic pump."
+        }
+      ]
+    },
+    {
+      "id": "lungs",
+      "englishName": "Lungs",
+      "latinName": "Pulmones",
+      "hotspots": [
+        {
+          "id": "trachea",
+          "name": "Trachea",
+          "latinName": "Trachea",
+          "description": "Carries air down from the throat."
+        }
+      ]
+    }
+  ]
+}
